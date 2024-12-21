@@ -2,7 +2,9 @@ import "./globals.css";
 
 import { Inter, Oswald } from "next/font/google";
 
+import Header from "@/components/sections/header";
 import type { Metadata } from "next";
+import Provider from "@/components/structure/provider";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -26,7 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${oswald.variable} ${inter.variable} antialiased`}>
-      <body className="bg-BG">{children}</body>
+      <body className="bg-BG">
+        <Provider>
+          <Header />
+          {children}
+        </Provider>
+      </body>
     </html>
   );
 }

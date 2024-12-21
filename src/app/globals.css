@@ -33,31 +33,31 @@
     @apply font-oswald;
   }
   .decor-text-1 {
-    @apply font-normal text-[200px] tracking-[-2%] leading-none DESKTOP:text-[300px];
+    @apply font-normal text-[200px] tracking-[-2%] leading-none uppercase DESKTOP:text-[300px];
   }
   .decor-text-2 {
-    @apply font-bold text-[56px] tracking-[-2%] leading-none TABLET:text-[140px] DESKTOP:text-[56px];
+    @apply font-bold text-[56px] tracking-[-2%] leading-none uppercase TABLET:text-[140px] DESKTOP:text-[56px];
   }
   .decor-text-3 {
-    @apply font-bold text-[56px] tracking-[-2%] leading-none;
+    @apply font-bold text-[56px] tracking-[-2%] leading-none uppercase;
   }
   .hero-title {
-    @apply font-bold text-[48px] tracking-[-2%] leading-none DESKTOP:text-[80px];
+    @apply font-bold text-[48px] tracking-[-2%] leading-none uppercase DESKTOP:text-[80px];
   }
   .burger-menu-item {
-    @apply font-bold text-[40px] tracking-[-2%] leading-[120%] TABLET:text-[70px];
+    @apply font-bold text-[40px] tracking-[-2%] leading-[120%] uppercase TABLET:text-[70px];
   }
   .footer-logo {
-    @apply font-bold text-[40px] tracking-[-2%] leading-none TABLET:text-[72px];
+    @apply font-bold text-[40px] tracking-[-2%] leading-none uppercase TABLET:text-[72px];
   }
   .section-title {
-    @apply font-bold text-[32px] tracking-[-2%] leading-[120%] TABLET:text-[40px] DESKTOP:text-[48px];
+    @apply font-bold text-[32px] tracking-[-2%] leading-[120%] uppercase TABLET:text-[40px] DESKTOP:text-[48px];
   }
   .card-title {
-    @apply font-semibold text-[24px] tracking-[-2%] leading-none DESKTOP:text-[28px];
+    @apply font-semibold text-[24px] tracking-[-2%] leading-none uppercase DESKTOP:text-[28px];
   }
   .navigation-title {
-    @apply font-semibold text-[24px] tracking-[-2%] leading-none DESKTOP:text-[28px];
+    @apply font-semibold text-[24px] tracking-[-2%] leading-none uppercase  DESKTOP:text-[28px];
   }
   .body-text {
     @apply font-medium text-[14px] tracking-[-2%] leading-[120%] DESKTOP:text-[16px] font-inter;
@@ -69,13 +69,13 @@
     @apply font-semibold text-[12px] tracking-[-2%] leading-[140%] font-inter;
   }
   .section-title-big {
-    @apply font-bold text-[56px] tracking-[-2%] leading-[120%] DESKTOP:text-[80px] DESKTOP:leading-none;
+    @apply font-bold text-[56px] tracking-[-2%] leading-[120%] uppercase DESKTOP:text-[80px] DESKTOP:leading-none;
   }
   .logo {
-    @apply font-bold text-[24px] tracking-[-2%] leading-none;
+    @apply font-bold text-[24px] tracking-[-2%] leading-none uppercase;
   }
   .hero-subtitle {
-    @apply font-semibold text-[24px] tracking-[-2%] leading-[120%];
+    @apply font-semibold text-[24px] tracking-[-2%] leading-[120%] uppercase;
   }
   .menu-item {
     @apply font-medium text-[16px] tracking-[-2%] leading-[120%] font-inter;
