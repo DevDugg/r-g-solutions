@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Oswald", sans-serif;
-}
-
 @layer base {
   :root {
     --radius: 0.5rem;
@@ -32,6 +28,10 @@ body {
 
 @layer utilities {
   /* TEXT STYLES */
+
+  .body {
+    @apply font-oswald;
+  }
   .decor-text-1 {
     @apply font-normal text-[200px] tracking-[-2%] leading-none DESKTOP:text-[300px];
   }
