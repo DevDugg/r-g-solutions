@@ -2,20 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  font-family: "Oswald", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  /* TEXT STYLES */
+  .decor-text-1 {
+    @apply font-normal text-[200px] tracking-[-2%] leading-none DESKTOP:text-[300px];
+  }
+  .decor-text-2 {
+    @apply font-bold text-[56px] tracking-[-2%] leading-none TABLET:text-[140px] DESKTOP:text-[56px];
+  }
+  .decor-text-3 {
+    @apply font-bold text-[56px] tracking-[-2%] leading-none;
+  }
+  .hero-title {
+    @apply font-bold text-[48px] tracking-[-2%] leading-none DESKTOP:text-[80px];
+  }
+  .burger-menu-item {
+    @apply font-bold text-[40px] tracking-[-2%] leading-[120%] TABLET:text-[70px];
+  }
+  .footer-logo {
+    @apply font-bold text-[40px] tracking-[-2%] leading-none TABLET:text-[72px];
+  }
+  .section-title {
+    @apply font-bold text-[32px] tracking-[-2%] leading-[120%] TABLET:text-[40px] DESKTOP:text-[48px];
+  }
+  .card-title {
+    @apply font-semibold text-[24px] tracking-[-2%] leading-none DESKTOP:text-[28px];
+  }
+  .navigation-title {
+    @apply font-semibold text-[24px] tracking-[-2%] leading-none DESKTOP:text-[28px];
+  }
+  .body-text {
+    @apply font-medium text-[14px] tracking-[-2%] leading-[120%] DESKTOP:text-[16px] inter;
+  }
+  .button {
+    @apply font-semibold text-[14px] tracking-[-2%] leading-[120%] DESKTOP:text-[16px] DESKTOP:font-bold inter;
+  }
+  .tag-text {
+    @apply font-semibold text-[12px] tracking-[-2%] leading-[140%] inter;
+  }
+  .section-title-big {
+    @apply font-bold text-[56px] tracking-[-2%] leading-[120%] DESKTOP:text-[80px] DESKTOP:leading-none;
+  }
+  .logo {
+    @apply font-bold text-[24px] tracking-[-2%] leading-none;
+  }
+  .hero-subtitle {
+    @apply font-semibold text-[24px] tracking-[-2%] leading-[120%];
+  }
+  .menu-item {
+    @apply font-medium text-[16px] tracking-[-2%] leading-[120%] inter;
+  }
 }
