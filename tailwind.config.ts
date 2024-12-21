@@ -1,5 +1,6 @@
 // import colors from "@/config/colors";
 import type { Config } from "tailwindcss";
+import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
   darkMode: ["class"],
@@ -62,6 +63,11 @@ export default {
         DESKTOP: "1440px",
         TABLET: "800px",
         MOBILE: "390px",
+      },
+
+      fontFamily: {
+        oswald: ["var(--font-oswald)", ...defaultTheme.fontFamily.sans],
+        inter: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
       },
     },
   },

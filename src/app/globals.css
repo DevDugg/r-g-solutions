@@ -6,10 +6,6 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-.inter {
-  font-family: "Inter", sans-serif;
-}
-
 @layer base {
   :root {
     --radius: 0.5rem;
@@ -64,13 +60,13 @@ body {
     @apply font-semibold text-[24px] tracking-[-2%] leading-none DESKTOP:text-[28px];
   }
   .body-text {
-    @apply font-medium text-[14px] tracking-[-2%] leading-[120%] DESKTOP:text-[16px] inter;
+    @apply font-medium text-[14px] tracking-[-2%] leading-[120%] DESKTOP:text-[16px] font-inter;
   }
   .button {
-    @apply font-semibold text-[14px] tracking-[-2%] leading-[120%] DESKTOP:text-[16px] DESKTOP:font-bold inter;
+    @apply font-semibold text-[14px] tracking-[-2%] leading-[120%] DESKTOP:text-[16px] DESKTOP:font-bold font-inter;
   }
   .tag-text {
-    @apply font-semibold text-[12px] tracking-[-2%] leading-[140%] inter;
+    @apply font-semibold text-[12px] tracking-[-2%] leading-[140%] font-inter;
   }
   .section-title-big {
     @apply font-bold text-[56px] tracking-[-2%] leading-[120%] DESKTOP:text-[80px] DESKTOP:leading-none;
@@ -82,6 +78,6 @@ body {
     @apply font-semibold text-[24px] tracking-[-2%] leading-[120%];
   }
   .menu-item {
-    @apply font-medium text-[16px] tracking-[-2%] leading-[120%] inter;
+    @apply font-medium text-[16px] tracking-[-2%] leading-[120%] font-inter;
   }
 }
