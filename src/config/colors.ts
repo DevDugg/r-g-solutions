@@ -1,4 +1,4 @@
-const colors: Record<string, string> = {
+const colors = {
   BG: "rgba(237, 229, 220, 1)",
   TEXT_GRAY: "rgba(164, 164, 164, 1)",
   WHITE: "rgba(255, 255, 255, 1)",

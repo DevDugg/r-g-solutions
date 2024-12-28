@@ -1,7 +1,7 @@
 "use client";
 
 import { type HeaderLink as HeaderLinkType } from "@/data/types";
-import { motion, Variants } from "framer-motion";
+import { motion, Variants } from "motion/react";
 
 const variants: Variants = {
   initial: {

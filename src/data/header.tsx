@@ -2,6 +2,7 @@ import { HeaderLink } from "./types";
 
 interface Header {
   links: HeaderLink[];
+  buttonLabel: string;
 }
 
 const header: Header = {
@@ -31,6 +32,7 @@ const header: Header = {
       href: "#contact",
     },
   ],
+  buttonLabel: "Contact Us",
 };
 
 export default header;
