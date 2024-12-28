@@ -1,6 +1,7 @@
 import Burger from "../elements/burger";
 import Container from "../structure/container";
 import Logo from "../elements/logo";
+import Nav from "./nav";
 
 const Header = () => {
   return (
@@ -8,6 +9,7 @@ const Header = () => {
       <Container className="flex justify-between items-center mt-6">
         <Logo />
         <Burger />
+        <Nav />
       </Container>
     </header>
   );
