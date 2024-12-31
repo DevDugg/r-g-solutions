@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${oswald.variable} ${inter.variable} antialiased`}>
+    <html lang="en" className={`${oswald.variable} ${oswald.className} ${inter.variable} antialiased`}>
       <body className="bg-BG">
         <Provider>
           <Header />
