@@ -5,7 +5,7 @@ import hero from "@/data/hero";
 
 const Hero = () => {
   return (
-    <div className="hero h-dvh relative" id="#hero">
+    <section className="hero h-dvh relative" id="home">
       <Image
         src={hero.background}
         alt={hero.title}
@@ -26,9 +26,10 @@ const Hero = () => {
             {hero.description}
           </p>
         </div>
+
         <Button label={hero.cta.label} animateHover className="w-full mb-[42px] WIDE:w-[200px]" href={hero.cta.href} />
       </Container>
-    </div>
+    </section>
   );
 };
 export default Hero;

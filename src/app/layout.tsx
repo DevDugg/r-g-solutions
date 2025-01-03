@@ -2,6 +2,7 @@ import "./globals.css";
 
 import { Inter, Oswald } from "next/font/google";
 
+import Footer from "@/components/sections/footer";
 import Header from "@/components/sections/header";
 import type { Metadata } from "next";
 import Provider from "@/components/structure/provider";
@@ -32,6 +33,7 @@ export default function RootLayout({
         <Provider>
           <Header />
           {children}
+          <Footer />
         </Provider>
       </body>
     </html>
