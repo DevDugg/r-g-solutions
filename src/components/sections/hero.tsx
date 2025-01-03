@@ -22,7 +22,7 @@ const Hero = () => {
       >
         <div className="flex flex-col gap-6 text-left DESKTOP:text-center">
           <h1 className="hero-title">{hero.title}</h1>
-          <p className="body-text">{hero.description}</p>
+          <p className="body-text TABLET:hero-subtitle DESKTOP:body-text">{hero.description}</p>
         </div>
         <Button
           label={hero.cta.label}

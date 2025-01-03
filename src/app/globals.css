@@ -42,7 +42,7 @@
     @apply font-bold text-[56px] tracking-[-2%] leading-none uppercase;
   }
   .hero-title {
-    @apply font-bold text-[48px] tracking-[-2%] leading-none uppercase DESKTOP:text-[80px];
+    @apply font-bold text-[48px] tracking-[-2%] leading-none uppercase TABLET:text-[80px];
   }
   .burger-menu-item {
     @apply font-bold text-[40px] tracking-[-2%] leading-[120%] uppercase TABLET:text-[70px];
@@ -75,7 +75,7 @@
     @apply font-bold text-[24px] tracking-[-2%] leading-none uppercase;
   }
   .hero-subtitle {
-    @apply font-semibold text-[24px] tracking-[-2%] leading-[120%] uppercase;
+    @apply font-semibold text-[24px] tracking-[-2%] leading-[120%];
   }
   .menu-item {
     @apply font-medium text-[16px] tracking-[-2%] leading-[120%] font-inter;
