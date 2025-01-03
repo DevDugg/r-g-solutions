@@ -22,7 +22,9 @@ const Hero = () => {
       >
         <div className="flex flex-col gap-6 text-left WIDE:text-center WIDE:items-center">
           <h1 className="hero-title">{hero.title}</h1>
-          <p className="body-text TABLET:hero-subtitle WIDE:max-w-[70%] DESKTOP:body-text">{hero.description}</p>
+          <p className="body-text TABLET:hero-subtitle WIDE:max-w-[70%] DESKTOP:max-w-[50%] DESKTOP:body-text">
+            {hero.description}
+          </p>
         </div>
         <Button label={hero.cta.label} animateHover className="w-full mb-[42px] WIDE:w-[200px]" href={hero.cta.href} />
       </Container>
