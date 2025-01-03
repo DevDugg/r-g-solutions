@@ -17,19 +17,14 @@ const Hero = () => {
       />
       <div className="gradient size-full absolute top-0 left-0 bg-[linear-gradient(180deg,#000000_0%,rgba(0,0,0,0)_100%)] pointer-events-none select-none -z-10"></div>
       <Container
-        className="flex flex-col justify-between gap-6 pt-[28.43dvh] text-WHITE h-full DESKTOP:justify-normal DESKTOP:items-center"
+        className="flex flex-col justify-between gap-6 pt-[28.43dvh] text-WHITE h-full WIDE:justify-normal WIDE:items-center"
         parentClassName="h-full"
       >
-        <div className="flex flex-col gap-6 text-left DESKTOP:text-center">
+        <div className="flex flex-col gap-6 text-left WIDE:text-center WIDE:items-center">
           <h1 className="hero-title">{hero.title}</h1>
-          <p className="body-text TABLET:hero-subtitle DESKTOP:body-text">{hero.description}</p>
+          <p className="body-text TABLET:hero-subtitle WIDE:max-w-[70%] DESKTOP:body-text">{hero.description}</p>
         </div>
-        <Button
-          label={hero.cta.label}
-          animateHover
-          className="w-full mb-[42px] DESKTOP:w-[200px]"
-          href={hero.cta.href}
-        />
+        <Button label={hero.cta.label} animateHover className="w-full mb-[42px] WIDE:w-[200px]" href={hero.cta.href} />
       </Container>
     </div>
   );
