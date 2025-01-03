@@ -12,7 +12,7 @@ const Header = () => {
         <Logo />
         <Burger />
         <Nav />
-        <Button label={header.buttonLabel} animateHover className="hidden TABLET:block" />
+        <Button label={header.buttonLabel} animateHover className="hidden WIDE:block" />
       </Container>
     </header>
   );

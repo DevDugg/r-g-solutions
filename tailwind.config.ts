@@ -61,6 +61,7 @@ export default {
       },
       screens: {
         DESKTOP: "1440px",
+        WIDE: "1000px",
         TABLET: "800px",
         MOBILE: "390px",
       },
