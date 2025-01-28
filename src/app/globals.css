@@ -36,7 +36,7 @@
     @apply font-normal text-[200px] tracking-[-0.02em] leading-none uppercase DESKTOP:text-[300px];
   }
   .decor-text-2 {
-    @apply font-bold text-[56px] tracking-[-0.02em] leading-none uppercase TABLET:text-[140px] DESKTOP:text-[56px];
+    @apply font-bold text-[56px] tracking-[-0.02em] leading-none uppercase TABLET:text-[140px] DESKTOP:text-[200px];
   }
   .decor-text-3 {
     @apply font-bold text-[56px] tracking-[-0.02em] leading-none uppercase;
