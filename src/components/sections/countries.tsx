@@ -1,3 +1,4 @@
+import Button from "../elements/button";
 import Container from "../structure/container";
 import CountryCard from "../elements/country-card";
 import countries from "@/data/countries";
@@ -17,6 +18,7 @@ const Countries = () => {
           {countries.cards.map((card) => (
             <CountryCard key={card.label} {...card} />
           ))}
+          <Button label={countries.cta.label} href={countries.cta.href} className="w-full bg-ACCENT_DARK" />
         </div>
       </Container>
     </section>
