@@ -1,11 +1,12 @@
 import colors from "@/config/colors";
 
-const countries = {
+const regions = {
   label: "Delivering to your doorstep",
-  title: `explore <span style="color:${colors.ACCENT}">the countries</span> we serve, delivering your products with care and efficiency`,
+  title: `explore <span style="color:${colors.ACCENT}">the regions</span> we serve, delivering your products with care and efficiency`,
   cards: [
     {
       label: "Europe",
+
       image: "/eu-map.svg",
     },
     {
@@ -27,4 +28,4 @@ const countries = {
   },
 };
 
-export default countries;
+export default regions;
