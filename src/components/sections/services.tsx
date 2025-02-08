@@ -16,9 +16,9 @@ const Services = () => {
           <h2 className="section-title text-WHITE">{services.title}</h2>
         </div>
 
-        <div className="flex flex-col gap-4 mt-4">
-          {services.cards.map((card) => (
-            <SectionCard key={card.title} title={card.title} description={card.description} />
+        <div className="flex flex-col gap-4 mt-4 TABLET:grid TABLET:grid-cols-2 TABLET:gap-6 WIDE:flex WIDE:flex-row">
+          {services.cards.map((card, index) => (
+            <SectionCard key={card.title} title={card.title} description={card.description} index={index} />
           ))}
         </div>
 
