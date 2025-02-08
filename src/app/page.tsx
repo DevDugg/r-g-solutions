@@ -1,4 +1,5 @@
 import About from "@/components/sections/about";
+import Countries from "@/components/sections/countries";
 import Hero from "@/components/sections/hero";
 import Services from "@/components/sections/services";
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <Countries />
     </main>
   );
 }
