@@ -7,7 +7,7 @@ import benefits from "@/data/benefits";
 const Benefits = () => {
   return (
     <section id="benefits" className="benefits">
-      <Container className="flex flex-col gap-12 bg-BLACK rounded-2xl p-4">
+      <Container className="flex flex-col gap-12 bg-BLACK rounded-2xl p-4 TABLET:p-6">
         <div className="flex flex-col gap-4 text-WHITE">
           <div className="flex gap-2 items-center">
             <DecoratorCircle size={8} color={"WHITE"} /> <span className="tag-text">{benefits.label}</span>
