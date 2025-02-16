@@ -6,7 +6,7 @@ import services from "@/data/services";
 
 const Services = () => {
   return (
-    <section id="services" className="my-20">
+    <section id="services" className="services">
       <Container className="bg-BLACK rounded-2xl p-4 flex flex-col gap-6">
         <div className="flex flex-col gap-2">
           <div className="flex gap-1 items-center">
