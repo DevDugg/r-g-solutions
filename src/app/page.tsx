@@ -1,4 +1,5 @@
 import About from "@/components/sections/about";
+import Benefits from "@/components/sections/benefits";
 import Hero from "@/components/sections/hero";
 import Regions from "@/components/sections/regions";
 import Services from "@/components/sections/services";
@@ -9,6 +10,7 @@ export default function Home() {
       <About />
       <Services />
       <Regions />
+      <Benefits />
     </main>
   );
 }
